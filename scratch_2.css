@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+#forum {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.post {
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 10px;
+}
+
+#create-post {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
